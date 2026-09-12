@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cookie and Session Demo</title>
+</head>
+<body>
+
+    <h2>1. Save in Cookie</h2>
+    <form action="SetCookieServlet" method="POST">
+        <label for="c_user">Enter Name:</label>
+        <input type="text" id="c_user" name="username" required>
+        <button type="submit">Submit to Cookie</button>
+    </form>
+
+    <hr>
+
+    <h2>2. Save in Session</h2>
+    <form action="SetSessionServlet" method="POST">
+        <label for="s_user">Enter Name:</label>
+        <input type="text" id="s_user" name="username" required>
+        <button type="submit">Submit to Session</button>
+    </form>
+
+</body>
+</html>
