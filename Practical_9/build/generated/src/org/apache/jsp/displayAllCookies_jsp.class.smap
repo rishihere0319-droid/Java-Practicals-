@@ -1,0 +1,17 @@
+SMAP
+displayAllCookies_jsp.java
+JSP
+*S JSP
+*F
++ 0 displayAllCookies.jsp
+displayAllCookies.jsp
+*L
+1,19:44
+19,12:63
+30,2:75
+32,2:77,3
+34,4:83
+37,6:87
+42,5:93
+46,3:98
+*E
